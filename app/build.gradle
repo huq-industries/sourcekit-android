@@ -31,7 +31,7 @@ android {
 dependencies {
 
     // Huq Library
-    implementation fileTree(dir: 'libs', include: ['sourcekit-3.0.8.aar'])
+    implementation fileTree(dir: 'libs', include: ['sourcekit-3.0.9.aar'])
 
     // Huq Dependencies
     implementation 'com.google.android.gms:play-services-location:16.0.0'
