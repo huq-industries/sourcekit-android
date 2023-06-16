@@ -19,7 +19,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Sourcekit_android_demo"
         android:networkSecurityConfig="@xml/network_security_config">
-        <activity android:name=".MainActivity">
+        <activity
+            android:exported="true"
+            android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
