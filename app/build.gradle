@@ -34,7 +34,7 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['sourcekit-3.1.9.aar'])
 
     // Huq Dependencies
-    implementation 'com.google.android.gms:play-services-location:19.0.1'
+    implementation 'com.google.android.gms:play-services-location:21.0.1'
     implementation 'com.google.code.gson:gson:2.8.5'
     implementation 'com.squareup.okhttp3:okhttp:4.10.0'
 
